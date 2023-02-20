@@ -18,6 +18,7 @@ CelebA dataset
 - numpy
 - time
 - datetime
+- tensorboard
 
 # Download and set up
 To download the network code:
