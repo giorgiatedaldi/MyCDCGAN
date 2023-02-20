@@ -96,3 +96,6 @@ Some results are store in the **runs** folder. They can be seen trough **tensorb
 ```
 tensorboard --logdir=runs
 ```
+
+# Checkpoints
+Some checkpoints of different trainings are available in the **mydcgan/models** folder.
