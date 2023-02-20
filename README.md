@@ -90,3 +90,9 @@ python3 main.py --model_name wass_classification_model --label_dim 5 --selected_
 ```
 python3 main.py --model_name wass_classification_model --label_dim 5 --selected_attr Wearing_Hat Eyeglasses Bangs Blond_Hair Wavy_Hair --batch_size 64 --run_name test --resume_epoch 5 --resume_iter 3135 --mode test --test_images 6
 ```
+
+# Result
+Some results are store in the **runs** folder. They can be seen trough **tensorboard**. From the folder were **runs** is saved you can run the following command:
+```
+tensorboard --logdir=runs
+```
